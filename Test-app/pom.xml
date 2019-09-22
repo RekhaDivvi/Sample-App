@@ -16,5 +16,13 @@
     </dependency>
   </dependencies>
   
-   
+  <distributionManagement>
+ <!-- Publish the versioned releases here -->
+ <repository>
+  <id>localnexus</id>
+  <name>localnexus</name>
+  <url>http://localhost:8081/repository/Test_Rel/</url>
+ </repository>
+ </distributionManagement>  
+ 
 </project>
