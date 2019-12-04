@@ -1,7 +1,7 @@
 public class bubblesort {
    public static void main(String []args) {
 	String str[] = { "Ajeet", "Steve", "Rick", "Becky", "Mohan"};
-	String temp;
+	
 	System.out.println("Strings in sorted order:");
 	for (int j = 0; j < str.length; j++) {
    	   for (int i = j + 1; i < str.length; i++) {
@@ -15,5 +15,8 @@ public class bubblesort {
 	   System.out.println(str[j]);
 	}
    }
+	Strng temp;
+	in x=0;
+	for(y=1)
 }
 }}
